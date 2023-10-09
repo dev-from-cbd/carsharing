@@ -12,7 +12,7 @@ const CustomButton = () => {
       className={`custom-btn`}
       onClick={() => {}}
     >
-      CustomButton
+      <span className={`flex-1`}>CustomButton</span>
     </button>
   );
 };
