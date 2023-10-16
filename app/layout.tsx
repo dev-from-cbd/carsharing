@@ -1,10 +1,9 @@
+import { Navbar, Footer } from "@/components";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Car Hub",
-  description: "Discover the best cars in Australia.",
+  description: "Discover some nice cars in Australia.",
 };
 
 export default function RootLayout({
